@@ -4,10 +4,10 @@
 
 $light:                           #fff !default;
 $stable:                          #f8f8f8 !default;
-$positive:                        #387ef5 !default;
+$positive:                        #40bec9 !default;
 $calm:                            #11c1f3 !default;
 $balanced:                        #33cd5f !default;
-$energized:                       #ffc900 !default;
+$energized:                       #292c5c !default;
 $assertive:                       #ef473a !default;
 $royal:                           #886aea !default;
 $dark:                            #444 !default;
@@ -15,11 +15,17 @@ $dark:                            #444 !default;
 
 // Base
 // -------------------------------
+$font-gotham-medium:              "GothamRounded-Medium";
+$font-gotham-bold:                "GothamRounded-Bold";
+$font-gotham-italic:              "GothamRounded-BookItalic";
+$font-gotham-book:                "GothamRounded-Book";
 
-$font-family-sans-serif:          "Helvetica Neue", "Roboto", "Segoe UI", sans-serif !default;
-$font-family-light-sans-serif:    "HelveticaNeue-Light", "Roboto-Light", "Segoe UI-Light", sans-serif-light !default;
+
+$font-family-sans-serif:          $font-gotham-book, sans-serif !default;
+$font-family-light-sans-serif:    $font-gotham-book, sans-serif-light !default;
 $font-family-serif:               serif !default;
 $font-family-monospace:           monospace !default;
+
 
 $font-family-base:                $font-family-sans-serif !default;
 $font-size-base:                  14px !default;
@@ -93,10 +99,10 @@ $button-bar-button-padding:       8px !default;
 $button-bar-button-icon-size:     20px !default;
 
 $button-light-bg:                 $light !default;
-$button-light-text:               #444 !default;
-$button-light-border:             #ddd !default;
+$button-light-text:               $positive !default;
+$button-light-border:             $light !default;
 $button-light-active-bg:          #fafafa !default;
-$button-light-active-border:      #ccc !default;
+$button-light-active-border:      $light !default;
 
 $button-stable-bg:                $stable !default;
 $button-stable-text:              #444 !default;

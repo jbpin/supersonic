@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 @import
+  // fonts
+  "fonts",
+
   // Ionicons
   "ionicons/ionicons.scss",
 
@@ -50,10 +53,4 @@
 
   // Animations
   "animations",
-  "transitions",
-
-  // Custom overwrites to overcome unwanted behaviour
-  "ag_overwrites",
-
-  // Module tools
-  "modules";
+  "transitions";
